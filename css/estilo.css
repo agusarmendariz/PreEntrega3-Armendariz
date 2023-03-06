@@ -1,0 +1,264 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    
+}
+@font-face {
+    font-family: "font1";
+    src: url(../assets/fonts/Oswald-SemiBold.ttf);
+}
+
+@font-face {
+    font-family: "font2";
+    src: url(../assets/fonts/Raleway-Regular.ttf);
+}
+@font-face {
+    font-family: "font3";
+    src: url(../assets/fonts/Oswald-Medium.ttf);
+}
+
+
+body{
+    font-family:"font2";
+    background-color: #f6f7f9;
+    font-size: 16px;
+   
+ }
+
+ 
+ nav {
+   
+    margin:0 auto;
+    background-color:#f6f7f9;
+    display: flex;
+    justify-content: space-between;
+	
+}
+nav .logo img{
+    margin: 20px 20px;
+   width: 260px;
+   height: 60px;
+    
+ }
+nav  .menu{
+display: flex;
+align-items: center;
+
+list-style-type: none;
+
+
+}
+nav .menu .item{
+    text-decoration: none;
+    padding: 15px;
+    font-size: 20px;
+    color:black;
+    font-family:"font1" ;
+}
+nav .menu .item:hover{
+ color:#4269ac
+}
+
+ #imagenHome{
+
+    width:1310px;
+    height:650px ;
+    background-image: url(../assets/img/Parcels-webpage-.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    margin:0px 27px
+}
+#imagenHome h1{
+    text-align: center;
+    color:#8ab3de;
+    padding-top: 120px;
+    font-family: "font1";
+    font-size: 50px;
+}
+section p{
+    margin:40px 80px;
+    text-align: justify;
+    line-height: 1.5
+    
+}
+
+.sectionHome{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 30px 0px;
+   
+}
+.sectionHome img{
+    width: 550px;
+    height: 350px;
+    margin-left: 120px;
+}
+.sectionHome p{
+    margin-right: 120px;
+    text-align: left;
+}
+.sectionHome2{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    
+    padding-bottom: 60px;
+}
+
+.sectionHome2 img{
+    width: 550px;
+    height: 350px;
+margin-right: 120px;
+   
+}
+.sectionHome2 p{
+    margin-left: 120px;
+    text-align: left;
+}
+
+
+
+.footer{
+    background-color:#a6bcd4;
+
+    padding-top: 30px ;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+   
+}
+
+ .redes{
+   display: flex;
+align-items: center;
+
+ 
+}
+.redes img{
+    width: 1.5rem;
+    height:1.5rem;
+   margin: 0px 10px ;
+}
+h6{
+    font-family: "font2";
+    padding: 10px 0px;
+
+}
+.headerDiscografia h2{
+  
+ margin:30px 120px;
+ font-family: "font1";
+ font-size: 25px;
+ color:#a27c57;
+
+}
+.discografia {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    padding: 20px 0px;
+}
+.discografia img{
+    
+    width: 300px;
+    height: 300px;
+}
+
+.videos{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    
+}
+.videos iframe{
+    width: 800px;
+    height: 400px;
+    padding: 20px;
+}
+.galeria h2{
+   padding:30px  75px;
+    font-family: "font1";
+    font-size: 25px;
+    color:#a27c57;
+}
+#galery{
+    width:1220px;
+    height:540px ;
+    background-image: url(../assets/img/Parcels+Brixton+Academy+\(4\).jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    margin:0px 75px
+}
+.galeria1{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    padding: 100px 0px
+}
+ .galeria1 img{
+    width: 354px;
+    height: 354px
+ }
+
+.containerFormulario{
+ display: flex;
+ flex-direction: row;
+ align-items:start;
+ justify-content: space-evenly;
+
+
+}
+.containerFormulario h2{
+       padding-top: 50px;
+       font-family: "font1";
+       color: #a27c57;
+       font-size: 25px;
+       margin-left: 100px;
+}
+.containerFormulario h3{
+        padding-top: 20px;
+        margin-left: 100px;
+}
+.formulario{
+    display: flex ; 
+    justify-content:flex-start ;
+    align-items : center ;
+    width: 350px;
+    height: 300px;
+    background-color:#a27c57;
+    border-radius: 15px;
+    margin: 100px ;
+   padding: 40px;
+
+}
+form label{
+    display:block;
+    font-size: 18px;
+	font-weight:bold;
+
+}
+
+form input[type="text"],
+form input[type="email"]{
+    width:250px;
+    border-radius:5px;
+    height: 30px;
+   
+}
+form input[type="submit"]{
+	width:120px;
+	padding:4px 4px;
+	margin-top:10px;
+	border:1px solid #000;
+	border-radius:5px;
+    background-color:#4269ac ;
+    font-family: "font2";
+    font-size: 18px;
+}
