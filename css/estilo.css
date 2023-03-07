@@ -15,7 +15,7 @@
 }
 @font-face {
     font-family: "font3";
-    src: url(../assets/fonts/Oswald-Medium.ttf);
+    src: url(../assets/fonts/Oswald-Regular.ttf);
 }
 
 
@@ -27,103 +27,66 @@ body{
  }
 
  
- nav {
-   
-    margin:0 auto;
-    background-color:#f6f7f9;
-    display: flex;
-    justify-content: space-between;
-	
-}
-nav .logo img{
+ .logoImg{
     margin: 20px 20px;
    width: 260px;
-   height: 60px;
-    
+   height: 60px; 
  }
-nav  .menu{
-display: flex;
-align-items: center;
 
-list-style-type: none;
-
-
-}
-nav .menu .item{
+.nav-item{
     text-decoration: none;
     padding: 15px;
     font-size: 20px;
-    color:black;
+    color: #000;
     font-family:"font1" ;
 }
-nav .menu .item:hover{
+
+.nav-item a:hover{
  color:#4269ac
 }
-
- #imagenHome{
-
-    width:1310px;
-    height:650px ;
+.imagenHome{
+    width:100%;
+    height:640px ;
     background-image: url(../assets/img/Parcels-webpage-.jpg);
-    background-size: cover;
+    background-size:contain;
     background-repeat: no-repeat;
     background-position: center center;
-    margin:0px 27px
+    
 }
-#imagenHome h1{
+.imagenHome h1{
     text-align: center;
-    color:#8ab3de;
-    padding-top: 120px;
+    color:#a3c6e2;
+    padding-top: 180px;
     font-family: "font1";
-    font-size: 50px;
+    font-size: 40px;
 }
-section p{
-    margin:40px 80px;
+.mainSection p{
+    margin:0px 40px 80px;
     text-align: justify;
     line-height: 1.5
     
 }
-
-.sectionHome{
-    display: flex;
-    align-items: center;
-    justify-content: space-evenly;
-    padding: 30px 0px;
-   
-}
-.sectionHome img{
+.imgHome1{
     width: 550px;
     height: 350px;
-    margin-left: 120px;
-}
-.sectionHome p{
-    margin-right: 120px;
-    text-align: left;
-}
-.sectionHome2{
-    display: flex;
-    align-items: center;
-    justify-content: space-evenly;
-    
-    padding-bottom: 60px;
+    padding: 20px;
 }
 
-.sectionHome2 img{
+.imgHome2{
     width: 550px;
     height: 350px;
-margin-right: 120px;
+    padding: 20px;
    
 }
-.sectionHome2 p{
-    margin-left: 120px;
-    text-align: left;
+section p{
+    margin:60px;
+    text-align: justify;
+    line-height: 1.5
 }
-
 
 
 .footer{
     background-color:#a6bcd4;
-
     padding-top: 30px ;
     display: flex;
     flex-direction: column;
@@ -138,14 +101,30 @@ align-items: center;
  
 }
 .redes img{
-    width: 1.5rem;
-    height:1.5rem;
+    width: 1.2rem;
+    height:1.2rem;
    margin: 0px 10px ;
 }
 h6{
-    font-family: "font2";
+    font-family: "font3";
     padding: 10px 0px;
 
+}
+
+#discografia img{
+    
+    width: 300px;
+    height: 300px;
+}
+#discografia p{
+    text-align: center;
+    padding-top: 10px;
+}
+
+.videos iframe{
+    width: 800px;
+    height: 480px;
+    padding: 30px;
 }
 .headerDiscografia h2{
   
@@ -155,31 +134,7 @@ h6{
  color:#a27c57;
 
 }
-.discografia {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
-    padding: 20px 0px;
-}
-.discografia img{
-    
-    width: 300px;
-    height: 300px;
-}
 
-.videos{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding-top: 20px;
-    padding-bottom: 20px;
-    
-}
-.videos iframe{
-    width: 800px;
-    height: 400px;
-    padding: 20px;
-}
 .galeria h2{
    padding:30px  75px;
     font-family: "font1";
