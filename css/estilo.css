@@ -134,32 +134,24 @@ h6{
  color:#a27c57;
 
 }
-
 .galeria h2{
-   padding:30px  75px;
-    font-family: "font1";
-    font-size: 25px;
-    color:#a27c57;
-}
-#galery{
-    width:1220px;
-    height:540px ;
-    background-image: url(../assets/img/Parcels+Brixton+Academy+\(4\).jpg);
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center center;
-    margin:0px 75px
-}
-.galeria1{
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
-    padding: 100px 0px
-}
- .galeria1 img{
-    width: 354px;
-    height: 354px
+    padding:30px  75px;
+     font-family: "font1";
+     font-size: 25px;
+     color:#a27c57;
+ }
+ #galery img{
+     width:100%;
+     height:100%;
+     padding:0px 40px 20px
+ }
+ #galeriaFotos img{
+     width:100%;
+     height:300px;
+     
+ }
+ #galeriaFotos img:hover{
+ opacity: 0.5;
  }
 
 .containerFormulario{
