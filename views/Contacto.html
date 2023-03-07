@@ -37,40 +37,41 @@
             </div>
           </nav>
     </header>
-    <main class="containerFormulario">
-        <div>
-            <h2>
-                CONTACTO
-               
+    <main>
+        <div id="contacto" class="container">
+          <div class="row">
+            <div class="col-sm-12 col-md-6 col-lg-6">
+              <h2>
+                CONTACTO   
             </h2>
-            <h3> Enterate de todas las novedades!</h3>
-        </div>
+            <h4> Enterate de todas las novedades!</h4>
+            </div>
+            <div class="col-sm-12 col-md-6 col-lg-6">
+              <div class="card" style="width: 20rem;">
         
-        <section class="formulario">
-               
-        <form action="">
-            
-            <div>
-                <label for="name">Nombre</label>
-                <input type="text" name="name" placeholder="Nombre">
+                <div class="card-body">
+                  <form>
+                    <div class="form-group ">
+                      <label for="nombre">Nombre:</label>
+                      <input class="form-control" id="nombre" type="text" name="nombre"/>
+                    </div>
+                    <div class="form-group">
+                      <label for="email">Email: *</label>
+                      <input class="form-control"  id="email" type="text"  required name="email"/>
+                    </div>
+                    <div class="form-group">
+                      <label for="pais">Pais:</label>
+                      <input class="form-control"  id="email" type="text" name="pais"/>
+                    </div>
+                    <button type="submit" class="btn">Registrarme</button>
+                  </form>
+                </div>
+              </div>
             </div>
-            <br>
-            <div>
-                <label for="email">Email *</label>
-                <input type="email" required name="email" placeholder="email">
-            </div>
-            <br>
-            <div>
-                <label for="pais">Pais</label>
-                <input type="text" name="pais" placeholder="Pais">
-            </div>
-            <br>
-       
-                <input type="submit" name="registrarse" value="Registrarse">
-        </form>
-    </section>
-
-    </main>
+          </div>
+        </div>
+          <div>
+      </main>
     <footer class="footer">
         <div class="redes">
             <div>
