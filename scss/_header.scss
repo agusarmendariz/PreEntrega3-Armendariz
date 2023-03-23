@@ -1,0 +1,18 @@
+header{
+    .logoImg{
+    margin: 20px 20px;
+   width: 260px;
+   height: 60px; 
+ }
+    .nav-item{
+    text-decoration: none;
+    padding: 15px;
+    font-size: 20px;
+    color: #000;
+    font-family:"font1" ;
+    & a:hover{
+        color: $color-nav-hover
+       }
+
+}
+}

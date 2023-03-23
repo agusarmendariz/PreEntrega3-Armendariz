@@ -1,0 +1,28 @@
+#contacto{
+    padding: 100px;
+        h2{
+        font-family: "font1";
+        color:  $color-h2;
+        margin-left: 40px;  
+        }
+        h4{
+        padding-top: 10px;
+        margin-left: 40px;   
+        }
+        .card{
+        width:20rem;
+        background-color: $color-h2;
+        border-radius: 15px;
+        padding: 20px;
+        margin-left:20px 
+        }
+        .btn {
+            background-color: $color-btn ;
+            margin-top: 20px;
+            font-size: 18px;
+            font-weight: bold;
+            border-radius: 5px;
+            width: 140px;
+            border: 1px solid #000;
+        }
+    }

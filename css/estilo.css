@@ -1,238 +1,167 @@
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-
-@font-face {
-    font-family: "font1";
-    src: url(../assets/fonts/Oswald-SemiBold.ttf);
-}
-
-@font-face {
-    font-family: "font2";
-    src: url(../assets/fonts/Raleway-Regular.ttf);
-}
-
-@font-face {
-    font-family: "font3";
-    src: url(../assets/fonts/Oswald-Regular.ttf);
-}
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
 
 body {
-    font-family: "font2";
-    background-color: #f6f7f9;
-    font-size: 16px;
-}
+  font-family: "font2";
+  background-color: #f6f7f9;
+  font-size: 16px; }
 
-.logoImg {
-    margin: 20px 20px;
-    width: 260px;
-    height: 60px;
-}
+@font-face {
+  font-family: "font1";
+  src: url(../assets/fonts/Oswald-SemiBold.ttf); }
 
-.nav-item {
-    text-decoration: none;
-    padding: 15px;
-    font-size: 20px;
-    color: #000;
-    font-family: "font1";
-}
+@font-face {
+  font-family: "font2";
+  src: url(../assets/fonts/Raleway-Regular.ttf); }
 
-.nav-item a:hover {
-    color: #4269ac
-}
+@font-face {
+  font-family: "font3";
+  src: url(../assets/fonts/Oswald-Regular.ttf); }
 
-.hero {
-    padding-bottom: 20px;
-    width: 100%;
-}
+header .logoImg {
+  margin: 20px 20px;
+  width: 260px;
+  height: 60px; }
 
-.h1front h1 {
-    font-size: 20px;
-    line-height: 1.3em;
-}
-section .p-front {
-    line-height: 1.3em;
-    padding:  20px 10px;
-}
-.imgbx {
-    width: 100%;
-    height: 350px;
-    object-fit: cover;
-    border-radius: 10px;
-    margin:10px 0 30px 0;
-}
+header .nav-item {
+  text-decoration: none;
+  padding: 15px;
+  font-size: 20px;
+  color: #000;
+  font-family: "font1"; }
+  header .nav-item a:hover {
+    color: #4269ac; }
 
-.imgHome1 {
-    width: 550px;
-    height: 350px;
-    padding: 20px;
-}
+main .home {
+  padding-bottom: 20px;
+  width: 100%; }
 
-.imgHome2 {
-    width: 550px;
-    height: 350px;
-    padding: 20px;
-}
+main .h1front h1 {
+  font-size: 20px;
+  line-height: 1.3em; }
+
+main section .p-front {
+  line-height: 1.3em;
+  padding: 20px 0px; }
+
+main .imgbx {
+  width: 100%;
+  height: 350px;
+  object-fit: cover;
+  border-radius: 10px;
+  margin: 10px 0 30px 0; }
 
 .footer {
-    background-color: #a6bcd4;
-    padding-top: 30px;
+  background-color: #a6bcd4;
+  padding-top: 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center; }
+  .footer .redes {
     display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-
-.redes {
-    display: flex;
-    align-items: center;
-}
-
-.redes img {
-    width: 1.2rem;
-    height: 1.2rem;
-    margin: 0px 10px;
-}
-.redes img:hover{
-    opacity: 0.4;
-}
-
-h6 {
+    align-items: center; }
+    .footer .redes img {
+      width: 1.2rem;
+      height: 1.2rem;
+      margin: 0px 10px; }
+    .footer .redes img:hover {
+      opacity: 0.4; }
+  .footer h6 {
     font-family: "font3";
-    padding: 10px 0px;
-}
-
-#discografia img {
-    width: 300px;
-    height: 300px;
-  
-}
-
-#discografia p {
-    text-align: center;
-    padding-top: 10px;
-}
-
-.videos iframe {
-    width: 800px;
-    height: 480px;
-    padding: 30px;
-}
+    padding: 10px 0px; }
 
 .headerDiscografia h2 {
-    margin: 30px 130px;
-    font-family: "font1";
-    color: #a27c57;
-}
+  margin: 30px 130px;
+  font-family: "font1";
+  color: #a27c57; }
+
+#discografia img {
+  width: 300px;
+  height: 300px; }
+
+#discografia p {
+  text-align: center;
+  padding-top: 10px; }
+
+.videos iframe {
+  width: 800px;
+  height: 480px;
+  padding: 30px; }
 
 .galeria h2 {
-    padding: 30px 120px;
-    font-family: "font1";
-    color: #a27c57;
-}
+  padding: 30px 120px;
+  font-family: "font1";
+  color: #a27c57; }
 
 #galery img {
-    padding-bottom: 20px;
-    width: 100%;
-}
+  padding-bottom: 20px;
+  width: 100%; }
 
 #galeriaFotos img {
-    width: 100%;
-    height: 350px;
-    margin: 20px  0px 15px;
-    border-radius: 20px;
-}
-
-#galeriaFotos img:hover {
-    opacity: 0.5;
-}
+  width: 100%;
+  height: 350px;
+  margin: 20px  0px 15px;
+  border-radius: 20px; }
+  #galeriaFotos img img:hover {
+    opacity: 0.5; }
 
 #contacto {
-    padding: 100px;
-   
-   
-}
-
-#contacto h2 {
+  padding: 100px; }
+  #contacto h2 {
     font-family: "font1";
     color: #a27c57;
-    margin-left: 40px;
-    
-}
-
-#contacto h4 {
+    margin-left: 40px; }
+  #contacto h4 {
     padding-top: 10px;
-    margin-left: 40px;
-}
-
-.card {
-    width:20rem;
+    margin-left: 40px; }
+  #contacto .card {
+    width: 20rem;
     background-color: #a27c57;
     border-radius: 15px;
     padding: 20px;
-    margin-left:20px
-}
-
-.btn {
+    margin-left: 20px; }
+  #contacto .btn {
     background-color: #4269ac;
     margin-top: 20px;
     font-size: 18px;
     font-weight: bold;
     border-radius: 5px;
     width: 140px;
-    border: 1px solid #000;
-}
+    border: 1px solid #000; }
 
 @media (max-width: 768px) {
-    .logoImg {
-        margin: 20px 20px;
-        width: 200px;
-        height: 40px;
-    }
-   
-    .headerDiscografia h2 {
-        margin: 30px 120px;
-        font-family: "font1";
-        color: #a27c57;
-        font-size: 25px
-    }
-    #discografia img {
-        width: 250px;
-        height: 250px;
-    }
-    .videos iframe {
-        width: 600px;
-        height: 380px;
-        padding: 20px;
-    }
-    .galeria h2 {
-        padding: 30px 160px;
-        font-family: "font1";
-        color: #a27c57;
-        font-size: 25px;
-    }
-    #galeriaFotos img {
-        width: 300px;
-        height: 300px;
-    }
-}
-
-
+  .logoImg {
+    margin: 20px 20px;
+    width: 200px;
+    height: 40px; }
+  .headerDiscografia h2 {
+    margin: 20px 100px;
+    font-family: "font1";
+    color: #a27c57;
+    font-size: 25px; }
+  #discografia img {
+    width: 250px;
+    height: 250px; }
+  .videos iframe {
+    width: 600px;
+    height: 380px;
+    padding: 20px; }
+  .galeria h2 {
+    padding: 20px 100px;
+    font-family: "font1";
+    color: #a27c57;
+    font-size: 25px; }
+  #galeriaFotos img {
+    width: 300px;
+    height: 300px; } }
 
 @media only screen and (max-width: 780px) {
-    .h1front h1 {
-        font-size: 18px;
-        line-height: 1.3em;
-    }
-}
-
-.p-front {
+  .h1front h1 {
+    font-size: 18px;
+    line-height: 1.3em; }
+  .p-front {
     font-size: 16px;
     line-height: 1.3em;
-    padding: 10px 20px 0 0;
-}
-
-.bg-grey {
-    background-color: #f2f2f2;
-}
+    padding: 10px 20px 0 0; } }
